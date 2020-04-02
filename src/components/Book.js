@@ -13,14 +13,18 @@ const Book = props => {
             style={{
               width: 128,
               height: 193,
-              backgroundImage: `url(${bookData.imageLinks.thumbnail})`
+              backgroundImage: `url(${
+                bookData.imageLinks && bookData.imageLinks.thumbnail
+                  ? bookData.imageLinks.thumbnail
+                  : "https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/256x256/magnifying_glass.png"
+              })`
             }}
           ></div>
 
           {bookData.authors && (
             <div className="book-shelf-changer">
               <select
-                defaultValue={bookData.shelf}
+                defaultValue={bookData.shelf ? bookData.shelf : "none"}
                 onChange={event =>
                   onShelfSelector(bookData, event.target.value)
                 }
