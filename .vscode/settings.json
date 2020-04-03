@@ -1,0 +1,7 @@
+{
+    "editor.formatOnSave": true,
+    "prettier.eslintIntegration": true,
+    "files.associations": {
+        "*.js": "javascriptreact"
+    }
+}

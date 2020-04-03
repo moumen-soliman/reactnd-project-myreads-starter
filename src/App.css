@@ -1,6 +1,4 @@
-html,
-body,
-.root {
+html, body, .root {
   height: 100%;
 }
 
@@ -8,8 +6,7 @@ body {
   line-height: 1.5;
 }
 
-body,
-.app {
+body, .app {
   background: white;
 }
 
@@ -56,7 +53,7 @@ body,
   bottom: 25px;
 }
 
-.open-search a {
+.open-search button {
   display: block;
   width: 50px;
   height: 50px;
@@ -66,7 +63,7 @@ body,
   background-repeat: no-repeat;
   background-position: center;
   background-size: 28px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   font-size: 0;
   outline: 0;
 }
@@ -85,7 +82,7 @@ body,
   left: 0;
   z-index: 5;
   display: flex;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 0 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 0 6px rgba(0,0,0,0.23);
 }
 
 .search-books-input-wrapper {
@@ -177,7 +174,7 @@ button:active {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 20px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .book-shelf-changer select {
@@ -190,7 +187,7 @@ button:active {
 /* book cover */
 
 .book-cover {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   background: #eee;
 }
 
